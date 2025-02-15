@@ -80,6 +80,56 @@ We love fast websites! Which is why we created [Shopify/lighthouse-ci-action](ht
 
 Dawn runs [Theme Check](#Theme-Check) on every commit via [Shopify/theme-check-action](https://github.com/Shopify/theme-check-action).
 
+## Development Process
+
+To develop your Shopify theme using the Dawn theme as a starter project, follow these steps:
+
+1. **Set Up Your Development Environment:**
+   - Ensure you have [Node.js](https://nodejs.org/) installed.
+   - Install [Shopify CLI](https://shopify.dev/docs/themes/tools/cli/installation).
+
+2. **Clone the Dawn Repository:**
+   ```sh
+   git clone https://github.com/Shopify/dawn.git
+   cd dawn
+   ```
+
+3. **Install Dependencies:**
+   ```sh
+   npm install
+   ```
+
+4. **Start the Development Server:**
+   ```sh
+   shopify theme serve
+   ```
+   This command will start a local development server and open your default browser to preview your theme.
+
+5. **Make Changes to Your Theme:**
+   - Edit the Liquid, CSS, and JavaScript files in the `src` directory.
+   - Use the Shopify CLI commands to interact with your Shopify store.
+
+6. **Test Your Theme:**
+   - Use the [Theme Check](https://github.com/shopify/theme-check) tool to lint and validate your theme.
+   ```sh
+   shopify theme check
+   ```
+
+7. **Commit and Push Your Changes:**
+   ```sh
+   git add .
+   git commit -m "Your commit message"
+   git push origin main
+   ```
+
+8. **Deploy Your Theme:**
+   - Once you are satisfied with your changes, you can publish your theme to your Shopify store using the Shopify CLI.
+   ```sh
+   shopify theme publish
+   ```
+
+By following these steps, you can develop and customize your Shopify theme using the Dawn theme as a starting point.
+
 ## Contributing
 
 Want to make commerce better for everyone by contributing to Dawn? We'd love your help! Please read our [contributing guide](https://github.com/Shopify/dawn/blob/main/.github/CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements, and how to build for Dawn.
