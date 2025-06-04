@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
-    "theme_version": "15.3.0",
-    "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_name": "Simple",
+    "theme_version": "0.1.0",
+    "theme_author": "HS Labs",
+    "theme_documentation_url": "https://hs-labs.com/simple/doc",
+    "theme_support_url": "https://hs-labs.com/simple/support",
   },
   {
     "name": "t:settings_schema.logo.name",
