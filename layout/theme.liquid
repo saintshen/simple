@@ -27,6 +27,7 @@
     {% endif %}
 
     {% render 'meta-tags' %}
+    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
