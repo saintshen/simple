@@ -1,4 +1,8 @@
 {
+  "general":{
+    "text": "Text",
+    "group": "Group"
+  },
   "settings_schema": {
     "global": {
       "settings": {
