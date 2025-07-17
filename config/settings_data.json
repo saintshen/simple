@@ -4,21 +4,21 @@
     "Default": {
       "logo_width": 90,
       "color_schemes": {
-        "scheme-light": {
+        "scheme-1": {
           "settings": {
-            "background": "#FFFFFF",
-            "background_gradient": "#FFCCDD",
-            "text": "#121212",
-            "button": "#121212",
+            "background": "#eceae0",
+            "background_gradient": "#FFFFFF",
+            "text": "#1a1a1a",
+            "button": "#1a1a1a",
             "button_label": "#FFFFFF",
-            "secondary_button_label": "#121212",
-            "shadow": "#121212"
+            "secondary_button_label": "#1a1a1a",
+            "shadow": "#1a1a1a"
           }
         },
-        "scheme-dark": {
+        "scheme-2": {
           "settings": {
-            "background": "#030303",
-            "background_gradient": "#F3F3F3",
+            "background": "#565851",
+            "background_gradient": "#191a19",
             "text": "#FFFFFF",
             "button": "#F2F2F2",
             "button_label": "#131313",
@@ -27,9 +27,9 @@
           }
         }
       },
-      "type_header_font": "assistant_n4",
+      "type_header_font": "asul_n4",
       "heading_scale": 100,
-      "type_body_font": "assistant_n4",
+      "type_body_font": "asul_n4",
       "body_scale": 100,
       "page_width": 1200,
       "spacing_sections": 0,
